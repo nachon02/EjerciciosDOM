@@ -1,7 +1,7 @@
 const changeBackground = document.getElementById("changeBackground");
+let parrafo = document.getElementById("lorem")
 
 changeBackground.addEventListener("click", () => {
-  // Escribe el código necesario aquí
+  parrafo.style.backgroundColor = "#ff00ff";
   
-  //
 });
